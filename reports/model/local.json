@@ -1,0 +1,128 @@
+[
+  {
+    "row": {
+      "person_age": 34,
+      "person_income": 10380,
+      "person_emp_length": NaN,
+      "loan_amnt": 4250,
+      "loan_int_rate": 12.68,
+      "loan_percent_income": 0.41,
+      "cb_person_cred_hist_length": 5,
+      "person_home_ownership": "RENT",
+      "loan_intent": "VENTURE",
+      "loan_grade": "C",
+      "cb_person_default_on_file": "Y"
+    },
+    "actual": 1,
+    "probability": 0.9993975353406129,
+    "changes": [
+      {
+        "feature": "person_age",
+        "delta": 0.00040810785193212684
+      },
+      {
+        "feature": "person_income",
+        "delta": 0.0021166410021981052
+      },
+      {
+        "feature": "person_emp_length",
+        "delta": 0.0
+      },
+      {
+        "feature": "loan_amnt",
+        "delta": -0.00011150799775305753
+      },
+      {
+        "feature": "loan_int_rate",
+        "delta": -1.7029297566750756e-05
+      },
+      {
+        "feature": "loan_percent_income",
+        "delta": 0.7212689935461973
+      },
+      {
+        "feature": "cb_person_cred_hist_length",
+        "delta": 0.0
+      },
+      {
+        "feature": "person_home_ownership",
+        "delta": 0.0
+      },
+      {
+        "feature": "loan_intent",
+        "delta": 0.0003030703229631726
+      },
+      {
+        "feature": "loan_grade",
+        "delta": 0.0014602498879201509
+      },
+      {
+        "feature": "cb_person_default_on_file",
+        "delta": 0.0
+      }
+    ]
+  },
+  {
+    "row": {
+      "person_age": 26,
+      "person_income": 33000,
+      "person_emp_length": 10.0,
+      "loan_amnt": 7000,
+      "loan_int_rate": 7.43,
+      "loan_percent_income": 0.21,
+      "cb_person_cred_hist_length": 4,
+      "person_home_ownership": "MORTGAGE",
+      "loan_intent": "PERSONAL",
+      "loan_grade": "A",
+      "cb_person_default_on_file": "N"
+    },
+    "actual": 0,
+    "probability": 0.1799434088099185,
+    "changes": [
+      {
+        "feature": "person_age",
+        "delta": 0.0
+      },
+      {
+        "feature": "person_income",
+        "delta": 0.10228395798119291
+      },
+      {
+        "feature": "person_emp_length",
+        "delta": 0.017473609867609707
+      },
+      {
+        "feature": "loan_amnt",
+        "delta": -0.0054827156207585825
+      },
+      {
+        "feature": "loan_int_rate",
+        "delta": 0.002601603372992811
+      },
+      {
+        "feature": "loan_percent_income",
+        "delta": 0.02874151770524172
+      },
+      {
+        "feature": "cb_person_cred_hist_length",
+        "delta": 0.0
+      },
+      {
+        "feature": "person_home_ownership",
+        "delta": 0.0035534073995854287
+      },
+      {
+        "feature": "loan_intent",
+        "delta": -0.04062094877920064
+      },
+      {
+        "feature": "loan_grade",
+        "delta": 0.0
+      },
+      {
+        "feature": "cb_person_default_on_file",
+        "delta": 0.0
+      }
+    ]
+  }
+]

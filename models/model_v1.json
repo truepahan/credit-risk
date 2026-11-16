@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "selected": "HGB_31",
+  "threshold": 0.18000000000000005,
+  "protocol": "60% initial; 80/20; CV5; cost FN=5 FP=1; seed=42",
+  "acceptance": {
+    "auc_at_least_080": true,
+    "recall_at_least_075": true,
+    "auc_gain_at_least_010": true
+  }
+}

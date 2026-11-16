@@ -1,0 +1,42 @@
+{
+  "source": "Kaggle: Credit Risk Dataset (laotse), credit_risk_dataset.csv",
+  "raw": {
+    "file": "data\\raw\\credit_risk_dataset.csv",
+    "rows": 32581,
+    "columns": 12,
+    "sha256": "ce3c6d2167717bf1627d1c0c81cbccd28323cd4aa7b96d542599366d5ff6aac8"
+  },
+  "split": {
+    "method": "random",
+    "seed": 42,
+    "initial_share": 0.6,
+    "n_batches": 4
+  },
+  "files": [
+    {
+      "file": "data\\initial\\initial.csv",
+      "rows": 19549,
+      "sha256": "65361577874cf2fb373aebc562ac9058e83e323ced85a70649593e6ca0725c3b"
+    },
+    {
+      "file": "data\\incoming\\batch_01.csv",
+      "rows": 3258,
+      "sha256": "d6037499aa2e08f9a98d24c930197caaf6ca76a25fe5ce973e80b67b6c07090a"
+    },
+    {
+      "file": "data\\incoming\\batch_02.csv",
+      "rows": 3258,
+      "sha256": "0a33fdd7cf8079569f59e0be7b1377f19df18197fabf134553eb3e2c91016139"
+    },
+    {
+      "file": "data\\incoming\\batch_03.csv",
+      "rows": 3258,
+      "sha256": "773d7c4722ef314d66390739513c706e0efc014a4c4f921a3dd60e81b4f699fe"
+    },
+    {
+      "file": "data\\incoming\\batch_04.csv",
+      "rows": 3258,
+      "sha256": "e51e8952bf2a12d1ea7447145f70b0f019326d60b459464c0413704eab494e67"
+    }
+  ]
+}

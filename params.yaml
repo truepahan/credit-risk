@@ -1,0 +1,29 @@
+# Общие параметры проекта. Все скрипты читают значения только отсюда.
+seed: 42
+
+data:
+  raw_file: data/raw/credit_risk_dataset.csv
+  initial_file: data/initial/initial.csv
+  incoming_dir: data/incoming
+  processed_dir: data/processed
+  reports_dir: data/reports
+  target: loan_status
+
+split:
+  initial_share: 0.6   # доля исходной (обучающей) части
+  n_batches: 4         # число порций «новых» данных
+
+quality:
+  age_min: 18
+  age_max: 100
+  emp_length_max: 60
+  int_rate_min: 5.0
+  int_rate_max: 25.0
+  int_rate_max_missing_share: 0.15   # допустимая доля пропусков ставки в порции
+  percent_income_tolerance: 0.011    # |loan_percent_income - loan_amnt/income|
+  max_rejected_share: 0.05           # больше — порция уходит на ручную проверку
+
+features:
+  high_burden_threshold: 0.30
+  age_bins: [0, 25, 35, 50, 200]
+  age_labels: ["<=25", "26-35", "36-50", "50+"]

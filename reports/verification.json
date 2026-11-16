@@ -1,0 +1,45 @@
+{
+  "batch_10000_seconds": 0.11223890000110259,
+  "api_median_ms": 32.901200000196695,
+  "api_p95_ms": 38.78429000287724,
+  "api_mode": "TestClient; 50 warm requests; без сетевой задержки",
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "pyyaml": "6.0.3",
+    "pytest": "9.1.1",
+    "fastapi": "0.162.5",
+    "uvicorn": "0.54.0",
+    "httpx": "0.28.1",
+    "jupyter": "1.1.1"
+  },
+  "example_request": {
+    "person_age": 32,
+    "person_income": 52500,
+    "person_emp_length": 9.0,
+    "loan_amnt": 7000,
+    "loan_int_rate": 12.99,
+    "loan_percent_income": 0.13,
+    "cb_person_cred_hist_length": 9,
+    "person_home_ownership": "MORTGAGE",
+    "loan_intent": "HOMEIMPROVEMENT",
+    "loan_grade": "C",
+    "cb_person_default_on_file": "N"
+  },
+  "example_response": {
+    "row_id": 0,
+    "probability": 0.2451577743747736,
+    "high_risk": 1,
+    "model_version": "v1",
+    "threshold": 0.18000000000000005,
+    "recommendation": "Дополнительная проверка",
+    "notice": "Окончательное решение принимает специалист"
+  }
+}
